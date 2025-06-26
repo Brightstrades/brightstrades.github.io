@@ -446,16 +446,18 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 18px;
+    gap: 8px; /* smaller gap */
 }
+
 .logo-img {
-    height: 56px;
+    height: 38px; /* smaller logo */
     border-radius: 50%;
     border: 2px solid #ff6a3d;
     box-shadow: 0 2px 8px rgba(255,106,61,0.08);
 }
+
 .header-title {
-    font-size: 2.1em;
+    font-size: 1.25em; /* smaller title */
     font-weight: 700;
     letter-spacing: 1px;
     margin: 0;
